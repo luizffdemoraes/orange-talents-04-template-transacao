@@ -8,7 +8,7 @@ import javax.validation.constraints.Email;
 public class Cartao {
 
 	@Id
-	private String idCartao;
+	private String id;
 
 	@Email
 	private String email;
@@ -17,13 +17,13 @@ public class Cartao {
 	public Cartao() {
 	}
 
-	public Cartao(String idCartao, String email) {
-		this.idCartao = idCartao;
+	public Cartao(String id, String email) {
+		this.id = id;
 		this.email = email;
 	}
 
-	public String getIdCartao() {
-		return idCartao;
+	public String getId() {
+		return id;
 	}
 
 	public String getEmail() {

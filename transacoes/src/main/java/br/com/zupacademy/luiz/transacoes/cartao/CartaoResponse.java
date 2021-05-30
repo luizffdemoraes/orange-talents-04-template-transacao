@@ -10,7 +10,7 @@ public class CartaoResponse {
 	}
 
 	public CartaoResponse(Cartao cartao) {
-		this.id = cartao.getIdCartao();
+		this.id = cartao.getId();
 		this.email = cartao.getEmail();
 	}
 
